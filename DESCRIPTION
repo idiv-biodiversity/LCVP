@@ -1,11 +1,11 @@
 Package: LCP
 Title: The Leipzig Catalogue of Plants (LCP) - datapackage
-Version: 0.0.0.9000
+Version: 0.9.1
 Authors@R: c(
     person(given = "Alessandro", family = "Gentile", role = c("aut", "cre"), email = "gentile.alessandro@gmail.com"),
     person(given = "Martin", family = "Freiberg", role = "aut"),
     person(given = "Marten", family = "Winter", role = "aut"),
-    person(given = "Alexander", family = "Zizka", role = "ctb")
+    person(given = "Alexander", family = "Zizka", role = "aut")
   )
 Description: The data of the Leipzig Catalogue of Plants.
 URL: https://github.com/idiv-biodiversity/LCP
