@@ -1,0 +1,119 @@
+Input.Taxon,Status,PL.comparison,PL.alternative,Output.Taxon,Family,Order
+Acacia brownii (Poir.) Steud.,valid,synonym,Acacia brownii (Poir.) Steud.,Acacia brownii (Poir.) Steud.,Fabaceae,Fabales
+Acacia brownii (Poir.) Steud.,synonym,misspelling,Acacia brownii (Poir.) Steud.,Acacia brownii (Poir.) Steud.,Fabaceae,Fabales
+Acacia oshanesii F.Muell. & Maiden,valid,misspelling,Acacia oshanesii F.Muell. & Maiden,Acacia oshanesii F.Muell. & Maiden,Fabaceae,Fabales
+Acacia oshanesii F.Muell. & Maiden,synonym,misspelling,Acacia oshanesii F.Muell. & Maiden,Acacia oshanesii F.Muell. & Maiden,Fabaceae,Fabales
+Ageratum paleaceum (Gay ex DC.) Hemsl.,synonym,unresolved,,Ageratum paleaceum (Gay ex DC.) Hemsl.,Asteraceae,Asterales
+Ageratum paleaceum (Gay ex DC.) Hemsl.,valid,identical,,Ageratum paleaceum (Gay ex DC.) Hemsl.,Asteraceae,Asterales
+Alchemilla vulgaris var. sylvestris F.W.Schmidt,unresolved,identical,,unresolved,Rosaceae,Rosales
+Alchemilla vulgaris var. sylvestris F.W.Schmidt,synonym,missing,,Alchemilla reniformis Buser,Rosaceae,Rosales
+Amelanchier alnifolia var. pallida (Greene) Jeps.,synonym,identical,,Amelanchier pallida Greene,Rosaceae,Rosales
+Amelanchier alnifolia var. pallida (Greene) Jeps.,synonym,missing,,Amelanchier alnifolia (Nutt.) Nutt. ex M.Roem.,Rosaceae,Rosales
+Amelanchier alnifolia var. pumila (Torr. & A.Gray) C.K.Schneid.,synonym,different authors,Amelanchier pumila (Nutt. ex Torr. & A.Gray) M.Roem.,Amelanchier pumila (Torr. & A.Gray) M.Roem.,Rosaceae,Rosales
+Amelanchier alnifolia var. pumila (Torr. & A.Gray) C.K.Schneid.,synonym,missing,,Amelanchier sanguinea (Pursh) DC.,Rosaceae,Rosales
+Amelanchier canadensis var. alnifolia (Nutt.) Torr. & A.Gray,synonym,identical,,Amelanchier alnifolia (Nutt.) Nutt. ex M.Roem.,Rosaceae,Rosales
+Amelanchier canadensis var. alnifolia (Nutt.) Torr. & A.Gray,synonym,missing,,Amelanchier sanguinea (Pursh) DC.,Rosaceae,Rosales
+Anacampseros densifolia Dinter ex Poelln.,synonym,missing,,Anacampseros filamentosa (Haw.) Sims,Anacampserotaceae,Caryophyllales
+Anacampseros densifolia Dinter ex Poelln.,valid,identical,,Anacampseros densifolia Dinter ex Poelln.,Anacampserotaceae,Caryophyllales
+Angelica pinnatiloba R.H.Shan & F.T.Pu,valid,identical,,Angelica pinnatiloba R.H.Shan & F.T.Pu,Apiaceae,Apiales
+Angelica pinnatiloba R.H.Shan & F.T.Pu,synonym,missing,,Angelica pinnatiloba R.H.Shan & F.T.Pu,Apiaceae,Apiales
+Antrophyum immersum (Bory) Mett.,valid,identical,,Antrophyum immersum (Bory) Mett.,Pteridaceae,Polypodiales
+Antrophyum immersum (Bory) Mett.,synonym,different authors,Antrophyum immersum (Bory) Hook. & Baker,Antrophyum immersum (Bory) Mett.,Pteridaceae,Polypodiales
+Arabis inamoena Greene,synonym,identical,,Boechera platysperma (A.Gray) Al-Shehbaz,Brassicaceae,Brassicales
+Arabis inamoena Greene,synonym,missing,,Yosemitea repanda (S.Watson) P.J.Alexander & Windham,Brassicaceae,Brassicales
+Arenaria micradenia P.A.Smirn.,synonym,other synonym,Eremogone procera (Spreng.) Rchb.,Eremogone micradenia (P.A.Smirn.) Ikonn.,Caryophyllaceae,Caryophyllales
+Arenaria micradenia P.A.Smirn.,synonym,missing,,Eremogone saxatilis (L.) Ikonn.,Caryophyllaceae,Caryophyllales
+Astragalus longiramosus (Boriss.) Širj.,synonym,missing,,Astragalus longiramosus (Boriss.) Širj.,Fabaceae,Fabales
+Astragalus longiramosus (Boriss.) Širj.,valid,unresolved,,Astragalus longiramosus (Boriss.) Širj.,Fabaceae,Fabales
+Astragalus subulatus Pall.,synonym,other synonym,Astragalus anfractuosus Bunge,Astragalus subuliformis DC.,Fabaceae,Fabales
+Astragalus subulatus Pall.,synonym,identical,,Astragalus subuliformis DC.,Fabaceae,Fabales
+Bistorta amplexicaulis var. alba Munshi & Javeid,synonym,missing,,Bistorta amplexicaulis (D.Don) Greene,Polygonaceae,Caryophyllales
+Bistorta amplexicaulis var. alba Munshi & Javeid,valid,other synonym,Persicaria amplexicaulis (D.Don) RonseDecr.,Bistorta amplexicaulis var. alba Munshi & Javeid,Polygonaceae,Caryophyllales
+Blechnum brackenridgei (Carruth.) Perrie & Brownsey,synonym,other synonym,Blechnum tabulare (Thunb.) Kuhn,Doodia brackenridgei Carruth.,Blechnaceae,Polypodiales
+Blechnum brackenridgei (Carruth.) Perrie & Brownsey,valid,missing,,Blechnum brackenridgei (Carruth.) Perrie & Brownsey,Blechnaceae,Polypodiales
+Bothriospermum kusnezowii Bunge ex DC.,synonym,synonym,,Bothriospermum kusnezowii Bunge ex DC.,Boraginaceae,Boraginales
+Bothriospermum kusnezowii Bunge ex DC.,valid,identical,,Bothriospermum kusnezowii Bunge ex DC.,Boraginaceae,Boraginales
+Buddleja striata ZhiY.Zhang,synonym,identical,,Buddleja davidii Franch.,Scrophulariaceae,Lamiales
+Buddleja striata ZhiY.Zhang,valid,identical,,Buddleja striata ZhiY.Zhang,Scrophulariaceae,Lamiales
+Cereus bertinii Cels ex Hérincq,synonym,different authors,Austrocactus bertinii (Cels) Britton & Rose,Austrocactus bertinii (Cels ex Hérincq) Britton & Rose,Cactaceae,Caryophyllales
+Cereus bertinii Cels ex Hérincq,synonym,missing,,Austrocactus bertinii (Cels ex Hérincq) Britton & Rose,Cactaceae,Caryophyllales
+Combretum conchipetalum Engl. & Diels,valid,identical,,Combretum conchipetalum Engl. & Diels,Combretaceae,Myrtales
+Combretum conchipetalum Engl. & Diels,synonym,identical,,Combretum conchipetalum Engl. & Diels,Combretaceae,Myrtales
+Cyclosorus orientalis Ching,synonym,synonym,,Cyclosorus parasiticus (L.) Farw.,Thelypteridaceae,Polypodiales
+Cyclosorus orientalis Ching,synonym,missing,,Cyclosorus parasiticus (L.) Farw.,Thelypteridaceae,Polypodiales
+Davallia concinna C.Presl,synonym,missing,,Dennstaedtia arborescens (Willd.) Ekman ex Maxon,Dennstaedtiaceae,Polypodiales
+Davallia concinna C.Presl,synonym,missing,,Dennstaedtia arborescens (Willd.) Ekman ex Maxon,Dennstaedtiaceae,Polypodiales
+Decaspermum alternifolium (Miq.) Nied.,synonym,identical,,Prunus javanica (Teijsm. & Binn.) Miq.,Rosaceae,Rosales
+Decaspermum alternifolium (Miq.) Nied.,synonym,identical,,Decaspermum parviflorum (Lam.) A.J.Scott,Myrtaceae,Myrtales
+Dennstaedtia concinna (C.Presl) T.Moore,synonym,missing,,Dennstaedtia arborescens (Willd.) Ekman ex Maxon,Dennstaedtiaceae,Polypodiales
+Dennstaedtia concinna (C.Presl) T.Moore,synonym,missing,,Dennstaedtia arborescens (Willd.) Ekman ex Maxon,Dennstaedtiaceae,Polypodiales
+Desmodium benthamii N.P.Balakr.,synonym,different authors,Desmodium benthamii N.P.Balakr.,Desmodium benthamii N.P.Balakr.,Fabaceae,Fabales
+Desmodium benthamii N.P.Balakr.,valid,identical,,Desmodium benthamii N.P.Balakr.,Fabaceae,Fabales
+Diosma tenuifolia C.Presl,synonym,identical,,Coleonema calycinum (Steud.) I.Williams,Rutaceae,Sapindales
+Diosma tenuifolia C.Presl,synonym,missing,,Coleonema pulchrum Hook.,Rutaceae,Sapindales
+Diplacus brandegeei (Pennell) G.L.Nesom,valid,missing,,Diplacus brandegeei (Pennell) G.L.Nesom,Phrymaceae,Lamiales
+Diplacus brandegeei (Pennell) G.L.Nesom,synonym,missing,,Diplacus brandegeei (Pennell) G.L.Nesom,Phrymaceae,Lamiales
+Elodea granatensis Kunth,valid,identical,,Elodea granatensis Kunth,Hydrocharitaceae,Alismatales
+Elodea granatensis Kunth,synonym,identical,,Elodea granatensis Kunth,Hydrocharitaceae,Alismatales
+Eupatorium urticaefolium L.f.,synonym,identical,,Praxelis diffusa (Rich.) Pruski,Asteraceae,Asterales
+Eupatorium urticaefolium L.f.,synonym,identical,,Praxelis pauciflora (Kunth) R.M.King & H.Rob.,Asteraceae,Asterales
+Evolvulus alsinoides var. linifolius (L.) Baker,synonym,missing,,Evolvulus alsinoides (L.) L.,Convolvulaceae,Solanales
+Evolvulus alsinoides var. linifolius (L.) Baker,valid,missing,,Evolvulus alsinoides var. linifolius (L.) Baker,Convolvulaceae,Solanales
+Ferula korshinskyi Korovin,synonym,missing,,Ferula korshinskyi Korovin,Apiaceae,Apiales
+Ferula korshinskyi Korovin,valid,identical,,Ferula korshinskyi Korovin,Apiaceae,Apiales
+Galium corrudifolium Vill.,synonym,identical,,Galium lucidum All.,Rubiaceae,Gentianales
+Galium corrudifolium Vill.,synonym,unresolved,,Galium lucidum All.,Rubiaceae,Gentianales
+Gentiana linearifolia Lam.,synonym,identical,,Gentiana pneumonanthe L.,Gentianaceae,Gentianales
+Gentiana linearifolia Lam.,synonym,other synonym,Erythraea linearifolia Pers.,Centaurium quadrifolium (L.) G.López & C.E.Jarvis,Gentianaceae,Gentianales
+Gentiana tubulosa Gilg,synonym,identical,,Gentianella tubulosa (Gilg) Fabris,Gentianaceae,Gentianales
+Gentiana tubulosa Gilg,synonym,identical,,Gentianella carneorubra (Gilg) Fabris ex J.S.Pringle,Gentianaceae,Gentianales
+Hieracium florentinoides Arv.-Touv.,synonym,missing,,Pilosella florentinoides (Arv.-Touv.) Dostál,Asteraceae,Asterales
+Hieracium florentinoides Arv.-Touv.,synonym,unresolved,,Pilosella arida_x (Nägeli ex Freyn) Schljakov,Asteraceae,Asterales
+Hymenophyllum meyeri C.Presl,synonym,missing,,Hymenophyllum peltatum (Poir.) Desv.,Hymenophyllaceae,Hymenophyllales
+Hymenophyllum meyeri C.Presl,synonym,missing,,Hymenophyllum peltatum (Poir.) Desv.,Hymenophyllaceae,Hymenophyllales
+Impatiens lucida B.Heyne ex Hook.f.,synonym,identical,,Impatiens dasysperma Wight,Balsaminaceae,Ericales
+Impatiens lucida B.Heyne ex Hook.f.,valid,missing,,Impatiens lucida B.Heyne ex Hook.f.,Balsaminaceae,Ericales
+Juncus nastanthus V.I.Krecz. & Gontsch.,synonym,identical,,Juncus ranarius Songeon & E.P.Perrier,Juncaceae,Poales
+Juncus nastanthus V.I.Krecz. & Gontsch.,valid,identical,,Juncus nastanthus V.I.Krecz. & Gontsch.,Juncaceae,Poales
+Knema longepilosa (W.J.deWilde) W.J.deWilde,valid,missing,,Knema longepilosa (W.J.deWilde) W.J.deWilde,Myristicaceae,Magnoliales
+Knema longepilosa (W.J.deWilde) W.J.deWilde,synonym,unresolved,,Knema losirensis W.J.deWilde,Myristicaceae,Magnoliales
+Lobelia australiensis Lammers,synonym,missing,,Lobelia concolor R.Br.,Campanulaceae,Asterales
+Lobelia australiensis Lammers,valid,identical,,Lobelia australiensis Lammers,Campanulaceae,Asterales
+Machaerina hirta Boeckeler,synonym,identical,,Machaerina hirta Boeckeler,Cyperaceae,Poales
+Machaerina hirta Boeckeler,valid,identical,,Machaerina hirta Boeckeler,Cyperaceae,Poales
+Matricaria recutita var. coronata (Boiss.) Halácsy,synonym,unresolved,,Matricaria chamomilla L.,Asteraceae,Asterales
+Matricaria recutita var. coronata (Boiss.) Halácsy,synonym,identical,,Matricaria chamomilla L.,Asteraceae,Asterales
+Mentha piperita_x var. citrata (Ehrh.) Briq.,synonym,other synonym,Mentha piperita_x L.,Mentha aquatica L.,Lamiaceae,Lamiales
+Mentha piperita_x var. citrata (Ehrh.) Briq.,synonym,identical,,Mentha piperita_x L.,Lamiaceae,Lamiales
+Miconia paniculata (Mart. & Schrank ex DC.) Naudin,synonym,missing,,Miconia paniculata (Mart. & Schrank ex DC.) Naudin,Melastomataceae,Myrtales
+Miconia paniculata (Mart. & Schrank ex DC.) Naudin,valid,identical,,Miconia paniculata (Mart. & Schrank ex DC.) Naudin,Melastomataceae,Myrtales
+Microsteira chorigyna (Baill.) Dubard & Dop,synonym,synonym,,Microsteira chorigyna (Baill.) Dubard & Dop,Malpighiaceae,Malpighiales
+Microsteira chorigyna (Baill.) Dubard & Dop,valid,missing,,Microsteira chorigyna (Baill.) Dubard & Dop,Malpighiaceae,Malpighiales
+Olgaea hsiaowutaishanensis (F.H.Chen) Y.Ling,synonym,different authors,Olgaea lomonosowii (Trautv.) Iljin,Olgaea lomonossowii (Trautv.) Iljin,Asteraceae,Asterales
+Olgaea hsiaowutaishanensis (F.H.Chen) Y.Ling,synonym,misspelling,Olgaea lomonosowii (Trautv.) Iljin,Olgaea lomonossowii (Trautv.) Iljin,Asteraceae,Asterales
+Phlegmariurus pulcherrimus (Wall. ex Grev. & Hook.) Á.Löve & D.Löve,synonym,missing,,Phlegmariurus pulcherrimus (Wall. ex Grev. & Hook.) Á.Löve & D.Löve,Lycopodiaceae,Lycopodiales
+Phlegmariurus pulcherrimus (Wall. ex Grev. & Hook.) Á.Löve & D.Löve,valid,other synonym,Huperzia pulcherrima (Wall. ex Grev. & Hook.) Pic.Serm.,Phlegmariurus pulcherrimus (Wall. ex Grev. & Hook.) Á.Löve & D.Löve,Lycopodiaceae,Lycopodiales
+Polygala linearis B.Heyne ex Wight & Arn.,unresolved,identical,,unresolved,Polygalaceae,Fabales
+Polygala linearis B.Heyne ex Wight & Arn.,synonym,missing,,Polygala glomerata Lour.,Polygalaceae,Fabales
+Polygonum obtusifolium Täckh. & Boulos,valid,missing,,Polygonum obtusifolium Täckh. & Boulos,Polygonaceae,Caryophyllales
+Polygonum obtusifolium Täckh. & Boulos,synonym,identical,,Persicaria obtusifolia (Täckh. & Boulos) Greuter & Burdet,Polygonaceae,Caryophyllales
+Polystichum tridens (T.Moore ex Hook.) Fée,valid,missing,,Polystichum tridens (T.Moore ex Hook.) Fée,Dryopteridaceae,Polypodiales
+Polystichum tridens (T.Moore ex Hook.) Fée,synonym,other synonym,Dryopteris tridens (T.Moore ex Hook.) Kuntze,Polystichum tridens (T.Moore ex Hook.) Fée,Dryopteridaceae,Polypodiales
+Ruellia urens B.Heyne ex Roth,synonym,missing,,Strobilanthes urens (B.Heyne ex Roth) J.R.I.Wood,Acanthaceae,Lamiales
+Ruellia urens B.Heyne ex Roth,synonym,other synonym,Hemigraphis urens (Roth) J.R.I.Wood,Strobilanthes urens (B.Heyne ex Roth) J.R.I.Wood,Acanthaceae,Lamiales
+Selaginella rupestris forma peruviana Milde,synonym,identical,,Selaginella peruviana (Milde) Hieron.,Selaginellaceae,Selaginellales
+Selaginella rupestris forma peruviana Milde,synonym,missing,,Selaginella peruviana (Milde) Hieron.,Selaginellaceae,Selaginellales
+Sida kohautiana C.Presl,synonym,other synonym,Sida setosa Mart. ex Colla,Sida rhombifolia L.,Malvaceae,Malvales
+Sida kohautiana C.Presl,synonym,missing,,Sida setosa Mart. ex Colla,Malvaceae,Malvales
+Silene tenella A.Huet ex Schenk,unresolved,identical,,unresolved,Caryophyllaceae,Caryophyllales
+Silene tenella A.Huet ex Schenk,synonym,missing,,Heliosperma alpestre (Jacq.) Rchb.,Caryophyllaceae,Caryophyllales
+Synsepalum nyangense (Pellegr.) McPherson & L.J.T.White,valid,identical,,Synsepalum nyangense (Pellegr.) McPherson & L.J.T.White,Sapotaceae,Ericales
+Synsepalum nyangense (Pellegr.) McPherson & L.J.T.White,synonym,identical,,Synsepalum nyangense (Pellegr.) McPherson & L.J.T.White,Sapotaceae,Ericales
+Urtica incisa B.Heyne ex Wall.,synonym,unresolved,,Girardinia diversifolia (Link) Friis,Urticaceae,Rosales
+Urtica incisa B.Heyne ex Wall.,synonym,missing,,Girardinia diversifolia (Link) Friis,Urticaceae,Rosales
+Vernonia aspera (Roxb.) Buch.-Ham.,valid,synonym,Acilepis aspera (Buch.-Ham.) H.Rob.,Vernonia aspera (Roxb.) Buch.-Ham.,Asteraceae,Asterales
+Vernonia aspera (Roxb.) Buch.-Ham.,synonym,unresolved,,Vernonia aspera (Roxb.) Buch.-Ham.,Asteraceae,Asterales
+Veronica minima (K.Koch) K.Koch,synonym,missing,,Veronica campylopoda Boiss.,Plantaginaceae,Lamiales
+Veronica minima (K.Koch) K.Koch,synonym,missing,,Veronica pusilla Kotschy & Boiss.,Plantaginaceae,Lamiales
+Viburnum opulus forma puberulum (Kom.) Sugim.,synonym,missing,,Viburnum opulus L.,Viburnaceae,Dipsacales
+Viburnum opulus forma puberulum (Kom.) Sugim.,synonym,different authors,Viburnum opulus L.,Viburnum sargentii Koehne,Viburnaceae,Dipsacales
