@@ -1,6 +1,6 @@
 Package: LCP
 Title: The Leipzig Catalogue of Plants (LCP) - datapackage
-Version: 0.9.1
+Version: 1.0.1
 Authors@R: c(
     person(given = "Alessandro", family = "Gentile", role = c("aut", "cre"), email = "gentile.alessandro@gmail.com"),
     person(given = "Martin", family = "Freiberg", role = "aut"),

@@ -1,5 +1,4 @@
-# LCP v0.9.1
-
+# LCP v1.0.1
 This is a datapackage containing the species list of the Leipzig Plant Catalogue. To use the data for name resolution use the [`lcplants`](https://github.com/idiv-biodiversity/lcplants) package.
 
 # Installation
