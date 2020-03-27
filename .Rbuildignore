@@ -1,3 +1,4 @@
-^raw_data_LCP\.Rproj$
 ^\.Rproj\.user$
-LCP.Rproj
+LCVP.Rproj
+^raw_data_LCVP$
+^.*\.Rproj$

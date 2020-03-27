@@ -14,4 +14,5 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Depends: R (>= 3.5.0)
+Imports: utils
 RoxygenNote: 7.1.0

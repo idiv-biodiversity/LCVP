@@ -4,35 +4,26 @@
 \name{tab_position}
 \alias{tab_position}
 \title{List of the number positions of the first 3 letters of the species name in
-the tab_lcp}
+the tab_lcvp}
 \format{
 A data frame with 2676 observations on the following 3 variables.
 \describe{ 
  \item{Position}{A character vector. It is the position of
-the first 3 letters of the species name in the tab_lcp.}
+the first 3 letters of the species name in the tab_lcvp.}
 \item{Triphthong}{A character vector. First 3 letters of the species
-name in the tab_lcp.} \item{Genus}{A character vector.
+name in the tab_lcvp.} \item{Genus}{A character vector.
 Corresponding Genus name.} }
 }
 \source{
 https://idata.idiv.de/ddm/Data/ShowData/1806
 }
 \description{
-The 'LCPposition_table' contains 2.676 records each of them reports the
+The 'tab_position' reports the
 position (in term of number of rows) of the first three letters (triphthong)
-for the 1.314.778 plant names stored in the variable 'Input.Taxon' (which
-are listed in alphabetical order) of the table 'tab_lcp'. This
-indexing system allows the speeding up of the search on the largest list
-'tab_lcp.rda'. When the function 'LCPsolver()' begins the search
-for a plant name (e.g. "Laserpitium eliasii"), it starts to compare the
-first three letters of the submitted genus name (e.g. 'Las') with the
-records in the list of Triphthong on the 'LCPposition_table.rda' table. When
-it is able to find a match, the LCPsolver() function reads and stores in
-memory the corresponding value (e.g. 688815) in the 'Position' column. This
-value will be the starting point from where to start the search on the
-'tab_lcp' table; and the following position value (e.g. 691389) in
-the 'Position' column will be used as the end point in the
-'tab_lcp' table where to stop the search process.
+for the plant names stored in the variable 'Input.Taxon' (which
+are listed in alphabetical order) of the table 'tab_lcvp'. This
+indexing system speeds up of the search on the largest list
+'tab_lcvp.rda' using the lcvplants package.
 }
 \examples{
 
@@ -41,7 +32,7 @@ str(tab_position)
 
 }
 \references{
-The Leipzig Catalogue of Plants (LCP) - An improved taxonomic
+The Leipzig Catalogue of Vascular Plants (LCVP) - An improved taxonomic
 reference list for all known vascular plants
 }
 \keyword{datasets}
