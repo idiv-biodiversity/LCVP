@@ -1,5 +1,5 @@
-Package: LCP
-Title: The Leipzig Catalogue of Plants (LCP) - datapackage
+Package: LCVP
+Title: The Leipzig Catalogue of Vascular Plants (LCVP) - datapackage
 Version: 1.0.1
 Authors@R: c(
     person(given = "Alessandro", family = "Gentile", role = c("aut", "cre"), email = "gentile.alessandro@gmail.com"),
@@ -8,8 +8,8 @@ Authors@R: c(
     person(given = "Alexander", family = "Zizka", role = "aut")
   )
 Description: The data of the Leipzig Catalogue of Plants.
-URL: https://github.com/idiv-biodiversity/LCP
-BugReports: https://github.com/idiv-biodiversity/LCP/issues
+URL: https://github.com/idiv-biodiversity/LCVP
+BugReports: https://github.com/idiv-biodiversity/LCVP/issues
 License: MIT + file LICENSE 
 Encoding: UTF-8
 LazyData: true
