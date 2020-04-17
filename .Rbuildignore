@@ -2,3 +2,4 @@
 LCVP.Rproj
 ^raw_data_LCVP$
 ^.*\.Rproj$
+^output$

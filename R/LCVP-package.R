@@ -21,7 +21,6 @@
 #' Corresponding Genus name.} }
 #' @references The Leipzig Catalogue of Vascular Plants (LCVP) - An improved taxonomic
 #' reference list for all known vascular plants
-#' @source https://idata.idiv.de/ddm/Data/ShowData/1806
 #' @keywords datasets
 #' @examples
 #' 
@@ -68,7 +67,6 @@ NULL
 #' 'Input.Taxon', staying empty if the Status is unresolved.} }
 #' @references The Leipzig Catalogue of Plants (LCVP) - An improved taxonomic
 #' reference list for all known vascular plants.
-#' @source https://idata.idiv.de/ddm/Data/ShowData/1806
 #' @keywords datasets
 #' @examples
 #' 
@@ -76,6 +74,24 @@ NULL
 #' str(tab_lcvp)
 #' 
 NULL
+
+#' Reference List of LCVP
+#' 
+#' The 'ref_lcvp' contains the references to all literature used for compiling LCVP
+
+#' @name ref_lcvp
+#' @docType data
+#' @format A data frame with 4484 observations on the following 16 variables.
+#' @references The Leipzig Catalogue of Vascular Plants (LCVP) - An improved taxonomic
+#' reference list for all known vascular plants
+#' @keywords datasets
+#' @examples
+#' 
+#' data(ref_lcvp)
+#' str(ref_lcvp)
+#' 
+NULL
+
 
 
 

@@ -29,9 +29,6 @@ staying empty if the Status is unresolved.} \item{Order}{A character
 vector. The Order column provides the corresponding order name of the
 'Input.Taxon', staying empty if the Status is unresolved.} }
 }
-\source{
-https://idata.idiv.de/ddm/Data/ShowData/1806
-}
 \description{
 The 'tab_lcvp' contains records belonging to all the
 vascular plant taxa names checked and listed from the "Leipzig Catalogue of
