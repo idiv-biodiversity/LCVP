@@ -12,10 +12,13 @@ devtools::install_github("idiv-biodiversity/LCVP")
 LCP is a data package. You can use it to access and export the Leipzig Vascular Plant Catalogue. For taxonomic name resolution using LCVP use the [`lcvplants`](https://github.com/idiv-biodiversity/lcvplants) package.
 
 ```{r}
-data(tab_lcp)
-str(tab_lcp)
-head(tab_lcp)
+data(tab_lcvp)
+str(tab_lcvp)
+head(tab_lcvp)
+
+data(ref_lcvp)
+head(lcvp)
 ```
 
 # Citation
-Freiberg M, Winter M, Gentile A, Zizka A, Muellner-Riehl AN, Weigelt A & Wirth C. The Leipzig Catalogue of Plants (LCVP) –- An improved taxonomic reference list for all known vascular plants. R package, available at https://github.com/idiv-biodiversity/lcvplants.
+Freiberg M, Winter M, Gentile A, Zizka A, Muellner-Riehl AN, Weigelt A & Wirth C. The Leipzig Catalogue of Plants (LCVP) –- An improved taxonomic reference list for all known vascular plants. R package, available at https://github.com/idiv-biodiversity/LCVP.
