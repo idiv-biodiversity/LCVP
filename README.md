@@ -17,7 +17,7 @@ str(tab_lcvp)
 head(tab_lcvp)
 
 data(ref_lcvp)
-head(lcvp)
+head(ref_lcvp)
 ```
 
 # Citation
