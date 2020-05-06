@@ -44,27 +44,34 @@ NULL
 #' @name tab_lcvp
 #' @docType data
 #' @format A data frame with observations on the following 7 variables.
-#' \describe{ \item{Input.Taxon}{A character vector. This variable
-#' contains the list of all 1.314.778 vascular plant taxa names listed by the
-#' authors of the Leipzig Catalogue of Plants.} \item{Status}{A
-#' character vector. This variable provides a description if a taxon is
-#' classified as 'valid', 'synonym', 'unresolved' or 'external'. The
-#' 'unresolved' rank means that the status of the plant name could be either
-#' valid or synonym, but the information available does not allow a definitive
-#' decision (see the main text Freiberg et al. for more details).}
+#' \describe{ \item{Input.Taxon}{A character vector. 
+#' The list of all vascular plant species names listed in the Leipzig Catalogue of Vascular Plants (LCVP).} 
+#' \item{Status}{A
+#' character vector. Tdescription if a taxon is classified as ‘valid’, ‘synonym’, 
+#' ‘unresolved’,  ‘external’ or ‘blanks’. The ‘unresolved’ rank means that 
+#' the status of the plant name could be either valid or synonym, but the 
+#' information available does not allow a definitive decision. ‘External’ 
+#' in an extra rank which lists names outside the scope of this publication
+#' but useful to keep on this updated list. ‘Blanks’ means that the
+#' respective name exists in bibliography but it is neither clear 
+#' where it came from valid, synonym or unresolved.
+#' (see the main text Freiberg et al. for more details).}
 #' \item{PL.comparison}{A character vector. This field provides a
 #' direct comparison with 'The Plant List' (TPL; The Plant List
 #' http://www.theplantlist.org/ accessed: 1.1. 2013) reporting further
 #' information such as 'identical', 'synonym', 'other synonym', 'different
 #' authors', 'missing', 'misspelling', 'unresolved'.}
 #' \item{PL.alternative}{A character vector. This field provides a
-#' possible alternative name suggested by TPL.} \item{Output.Taxon}{A
+#' possible alternative name suggested by TPL.} 
+#' \item{Output.Taxon}{A
 #' character vector. This variable contains the list of the accepted plant taxa
-#' names (350.766) according to the LCVP.} \item{Family}{A character
-#' vector. It provides the corresponding family name of the 'Input.Taxon',
-#' staying empty if the Status is unresolved.} \item{Order}{A character
-#' vector. The Order column provides the corresponding order name of the
-#' 'Input.Taxon', staying empty if the Status is unresolved.} }
+#' names according to the LCVP.}
+#' \item{Family}{A character
+#' vector. corresponding family name of the Input.Taxon, 
+#' staying empty if the Status is unresolved.} 
+#' \item{Order}{A character
+#' vector. The corresponding order name of the Input.Taxon, 
+#' staying empty if the Status is unresolved.} }
 #' @references The Leipzig Catalogue of Plants (LCVP) - An improved taxonomic
 #' reference list for all known vascular plants.
 #' @keywords datasets

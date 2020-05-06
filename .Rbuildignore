@@ -3,3 +3,4 @@ LCVP.Rproj
 ^raw_data_LCVP$
 ^.*\.Rproj$
 ^output$
+some_summary_stats_on_the_references.R

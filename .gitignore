@@ -39,3 +39,4 @@ vignettes/*.pdf
 .Renviron
 
 /output/
+some_summary_stats_on_the_references.R
