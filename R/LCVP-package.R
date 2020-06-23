@@ -100,6 +100,23 @@ NULL
 #' 
 NULL
 
+#' Link between Taxa and Literature Reference
+#' 
+#' The 'ref_lcvp' links all taxa in LCVP with the relevant literature from ref_lcvp
+
+#' @name match_lcvp
+#' @docType data
+#' @format A data frame with 104,860 observations on the following 2 variables.
+#' @describe{
+#' \item{taxon}{The accepted taxon name from LCVP (as in tab_lcvp)}
+#' \item{reference}{The literature reference for this taxon name}
+#' @keywords datasets
+#' @examples
+#' 
+#' data(match_lcvp)
+#' head(match_lcvp)
+#' 
+NULL
 
 
 
