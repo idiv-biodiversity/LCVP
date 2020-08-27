@@ -62,11 +62,11 @@ update_LCVP_data <- function(input_data = "raw_data_LCVP/LCVP_1.01.txt",
   }
 
   # save position table
-  save(Position_table_final, file.path(output_folder, output_names[2], compress = "xz"))
+  save(Position_table_final, file = file.path(output_folder, output_names[2]), compress = "xz")
   
   # save data table
   tab_lcvp <- LCVPspecies_table
-  save(tab_lcvp, file.path(output_folder, output_names[1], compress = "xz"))
+  save(tab_lcvp, file = file.path(output_folder, output_names[1]), compress = "xz")
 
 }
 
