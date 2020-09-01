@@ -6,6 +6,9 @@
 \title{Link between Taxa and Literature Reference}
 \format{
 A data frame with 104,860 observations on the following 2 variables.
+\describe{
+\item{taxon}{The accepted taxon name from LCVP (as in tab_lcvp)}
+\item{reference}{The literature reference for this taxon name}}
 }
 \description{
 The 'ref_lcvp' links all taxa in LCVP with the relevant literature from ref_lcvp

@@ -21,4 +21,8 @@ head(ref_lcvp)
 ```
 
 # Citation
-Freiberg M, Winter M, Gentile A, Zizka A, Muellner-Riehl AN, Weigelt A & Wirth C. The Leipzig Catalogue of Plants (LCVP) –- An improved taxonomic reference list for all known vascular plants. R package, available at https://github.com/idiv-biodiversity/LCVP.
+
+```{r}
+library(LCVP)
+citation("LCVP")
+```

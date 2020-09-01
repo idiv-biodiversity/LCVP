@@ -107,9 +107,9 @@ NULL
 #' @name match_lcvp
 #' @docType data
 #' @format A data frame with 104,860 observations on the following 2 variables.
-#' @describe{
+#' \describe{
 #' \item{taxon}{The accepted taxon name from LCVP (as in tab_lcvp)}
-#' \item{reference}{The literature reference for this taxon name}
+#' \item{reference}{The literature reference for this taxon name}}
 #' @keywords datasets
 #' @examples
 #' 
