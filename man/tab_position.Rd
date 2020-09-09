@@ -14,6 +14,9 @@ the first 3 letters of the species name in the tab_lcvp.}
 name in the tab_lcvp.} \item{Genus}{A character vector.
 Corresponding Genus name.} }
 }
+\usage{
+tab_position
+}
 \description{
 The 'tab_position' reports the
 position (in term of number of rows) of the first three letters (triphthong)

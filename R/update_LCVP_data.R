@@ -41,7 +41,7 @@ update_LCVP_data <- function(input_data = "raw_data_LCVP/LCVP_1.01.txt",
   row <- dim(LCVPspecies_table)[1]
   
   Position_table_tmp <- data.frame(Position = NULL, Triphthong = NULL, Genus = NULL, stringsAsFactors=FALSE)
-  Position_table_final <- data.frame(Position = NULL, Triphthong = NULL, Genus = NULL, stringsAsFactors=FALSE)
+  tab_position <- data.frame(Position = NULL, Triphthong = NULL, Genus = NULL, stringsAsFactors=FALSE)
   
   triplet <- "Zero"
   
@@ -57,12 +57,12 @@ update_LCVP_data <- function(input_data = "raw_data_LCVP/LCVP_1.01.txt",
       triplet = LCVP_ini
       Position_table_tmp <- data.frame(Position = i, Triphthong = LCVP_ini, Genus = LCVP_genus, stringsAsFactors=FALSE)
       #write.table(Position_table_tmp, pathstring, sep = ",", col.names = FALSE, row.names = FALSE, append = TRUE, quote = FALSE)
-      Position_table_final <- rbind(Position_table_final, Position_table_tmp)
+      tab_position <- rbind(tab_position, Position_table_tmp)
     }
   }
 
   # save position table
-  save(Position_table_final, file = file.path(output_folder, output_names[2]), compress = "xz")
+  save(tab_position, file = file.path(output_folder, output_names[2]), compress = "xz")
   
   # save data table
   tab_lcvp <- LCVPspecies_table

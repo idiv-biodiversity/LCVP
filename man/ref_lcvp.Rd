@@ -7,6 +7,9 @@
 \format{
 A data frame with 4484 observations on the following 16 variables.
 }
+\usage{
+ref_lcvp
+}
 \description{
 The 'ref_lcvp' contains the references to all literature used for compiling LCVP
 }

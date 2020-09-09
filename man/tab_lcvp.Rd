@@ -37,6 +37,9 @@ staying empty if the Status is unresolved..}
 vector. The corresponding order name of the Input.Taxon, 
 staying empty if the Status is unresolved.} }
 }
+\usage{
+tab_lcvp
+}
 \description{
 The 'tab_lcvp' contains records belonging to all the
 vascular plant taxa names checked and listed from the "Leipzig Catalogue of
