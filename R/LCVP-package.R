@@ -27,7 +27,7 @@
 #' data(tab_position)
 #' str(tab_position)
 #' 
-NULL
+"tab_position"
 
 
 
@@ -81,7 +81,7 @@ NULL
 #' data(tab_lcvp)
 #' str(tab_lcvp)
 #' 
-NULL
+"tab_lcvp"
 
 #' Reference List of LCVP
 #' 
@@ -98,7 +98,7 @@ NULL
 #' data(ref_lcvp)
 #' str(ref_lcvp)
 #' 
-NULL
+"ref_lcvp"
 
 #' Link between Taxa and Literature Reference
 #' 
@@ -116,7 +116,7 @@ NULL
 #' data(match_lcvp)
 #' head(match_lcvp)
 #' 
-NULL
+"match_lcvp"
 
 
 
