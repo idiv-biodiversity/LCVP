@@ -22,10 +22,10 @@
 
 #encoding = "UTF-8"
 
-update_LCVP_data <- function(input_data = "raw_data_LCVP/LCVP_1.01.txt", 
+update_LCVP_data <- function(input_data = "raw_data_LCVP/LCVP_103.txt", 
                              output_folder = "data", 
                              output_names = c("tab_lcvp.rda", "tab_position.rda"), 
-                             encoding = "UTF-8")  {
+                             encoding = "ANSI")  {
 
   # Load data
   LCVPspecies_table <- read.csv(input_data, 

@@ -1,3 +1,9 @@
+lcvplants 1.0.4 (2020-11-16)
+=========================
+### MINOR IMPROVEMENTS
+  * Bug-fix with the encoding of special characters on windows machines
+
+
 lcvplants 1.0.2 (2020-04-25)
 =========================
 ### MINOR IMPROVEMENTS

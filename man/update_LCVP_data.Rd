@@ -6,10 +6,10 @@
 Updates the tab-lcsv and tab_position data files from a new text file version of the Leipzig CAtalogue of Vascular Plants.}
 \usage{
 update_LCVP_data(
-  input_data = "raw_data_LCVP/LCVP_1.01.txt",
+  input_data = "raw_data_LCVP/LCVP_103.txt",
   output_folder = "data",
   output_names = c("tab_lcvp.rda", "tab_position.rda"),
-  encoding = "UTF-8"
+  encoding = "ANSI"
 )
 }
 \arguments{
