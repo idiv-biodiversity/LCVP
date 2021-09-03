@@ -86,3 +86,49 @@
 # 
 # usethis::use_data(lcvp_order, lcvp_order, overwrite = T)
 # 
+# Order <- unique(tab_lcvp$Order)
+# Order <- Order[Order != '']
+# 
+# position_Order <- list()
+# 
+# for (i in 1:length(Order)) {
+#   print(i)
+#   position_Order[[i]] <- which(tab_lcvp$Order == Order[i])
+# }
+# names(position_Order) <- toupper(Order)
+# lcvp_order <-  position_Order
+# 
+# usethis::use_data(lcvp_order, lcvp_order, overwrite = T)
+# 
+# AUTHORS
+# authors <- strsplit(LCVP::lcvp_sps_class[, 4], " ")
+# 
+# all_authors <- authors
+# all_authors <- lapply(all_authors, function(x){x[x != "&"]})
+# all_authors <- lapply(all_authors, function(x){gsub("\\(", "", x)})
+# all_authors <- lapply(all_authors, function(x){gsub("\\)", "", x)})
+# all_authors <- lapply(all_authors, function(x){gsub("\\]", "", x)})
+# all_authors <- lapply(all_authors, function(x){gsub("\\[", "", x)})
+# all_authors <- lapply(all_authors, function(x){gsub("[[:digit:]]", "", x)})
+# all_authors <- lapply(all_authors, function(x){x[x != "EX"]})
+# all_authors <- lapply(all_authors, function(x){x[x != "IN"]})
+# all_authors <- lapply(all_authors, function(x){x[x != "X"]})
+# all_authors <- lapply(all_authors, function(x){x[x != "_"]})
+# all_authors <- lapply(all_authors, function(x){x[x != "."]})
+# all_authors <- lapply(all_authors, function(x){x[x != "&."]})
+# all_authors <- lapply(all_authors, function(x){x[x != "-"]})
+# all_authors <- lapply(all_authors, function(x){x[x != ""]})
+# 
+# all_authors_uniques <- sort(unique(unlist(all_authors)))
+# n <- length(all_authors_uniques)
+# lcvp_authors <- list()
+# for (i in 1:n) {
+#   print(n - i)
+#   lcvp_authors[[i]] <- which(sapply(all_authors, function(x){any(x %in% all_authors_uniques[i])}))
+# }
+# 
+# names(lcvp_authors) <- all_authors_uniques
+# usethis::use_data(lcvp_authors, lcvp_authors, overwrite = T)
+# 
+# 
+# sum(sapply(all_authors, function(x){any(x == "VAR")}))

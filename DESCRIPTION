@@ -1,8 +1,10 @@
 Package: LCVP
 Title: The Leipzig Catalogue of Vascular Plants (LCVP) - datapackage
-Version: 1.0.4
+Version: 2.0
 Authors@R: c(
-    person(given = "Alessandro", family = "Gentile", role = c("aut", "cre"), email = "gentile.alessandro@gmail.com"),
+    person(given = "Alessandro", family = "Gentile", role = c("aut", "cre"), 
+    email = "bvilela.bv@gmail.com"),
+    person(given = "Alessandro", family = "Gentile", role = c("aut")),
     person(given = "Martin", family = "Freiberg", role = "aut"),
     person(given = "Marten", family = "Winter", role = "aut"),
     person(given = "Alexander", family = "Zizka", role = "aut")

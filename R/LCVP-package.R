@@ -118,5 +118,65 @@
 #' 
 "match_lcvp"
 
+#' List of authors and their position in tab_lcvp
+#' 
+#' The 'lcvp_authors' list includes all authors and their respective
+#' described species' position in the tab_lcvp.
+#' 
+#' @name lcvp_authors
+#' @docType data
+#' @format A list.
+#' @keywords datasets
+#' @examples
+#' 
+#' data(lcvp_authors)
+#' 
+"lcvp_authors"
 
 
+#' List of families and their position in tab_lcvp
+#' 
+#' The 'lcvp_family' list includes all families and their respective
+#' position in the tab_lcvp.
+#' 
+#' @name lcvp_family
+#' @docType data
+#' @format A list.
+#' @keywords datasets
+#' @examples
+#' 
+#' data(lcvp_family)
+#' 
+"lcvp_family"
+
+#' List of orders and their position in tab_lcvp
+#' 
+#' The 'lcvp_order' list includes all families and their respective
+#' position in the tab_lcvp.
+#' 
+#' @name lcvp_order
+#' @docType data
+#' @format A list.
+#' @keywords datasets
+#' @examples
+#' 
+#' data(lcvp_order)
+#' 
+"lcvp_order"
+
+#' List of species name in tab_lcvp separeted by category
+#' 
+#' The 'lcvp_sps_class' includes all species separeted by genus, epithet, author, 
+#' subspecies, variety, subvariety, forma, subforma and ID (position in the 
+#' \code{tab_lcvp}).
+#' position in the \code{tab_lcvp}.
+#' 
+#' @name lcvp_sps_class
+#' @docType data
+#' @format A data.frame.
+#' @keywords datasets
+#' @examples
+#' 
+#' data(lcvp_sps_class)
+#' 
+"lcvp_sps_class"
