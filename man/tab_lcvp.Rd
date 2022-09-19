@@ -7,35 +7,45 @@
 (LCVP)}
 \format{
 A data frame with observations on the following 7 variables.
-\describe{ \item{Input.Taxon}{A character vector. 
-The list of all vascular plant species names listed in the Leipzig Catalogue of Vascular Plants (LCVP).} 
-\item{Status}{A
-character vector. description if a taxon is classified as 
-‘valid’, ‘synonym’, ‘unresolved’, ‘external’ or ‘blanks’.
-The ‘unresolved’ rank means that the status of the plant 
-name could be either valid or synonym, but the information 
-available does not allow a definitive decision.
-‘External’ in an extra rank which lists names outside the 
-scope of this publication but useful to keep on this updated list.
-‘Blanks’ means that the respective name exists in bibliography 
-but it is neither clear where it came from valid, synonym or unresolved.
-(see the main text Freiberg et al. for more details).}
-\item{PL.comparison}{A character vector. This field provides a direct 
-comparison with ‘The Plant List’ 
-(TPL; The Plant List \url{http://www.theplantlist.org/} accessed: 1.1. 2013) 
-reporting further information such as ‘identical', 'synonym', 
-'other synonym', 'different authors', 'missing', 'misspelling', 'unresolved'.}
-\item{PL.alternative}{A character vector. This field provides a
-possible alternative name from the TPL.} 
-\item{Output.Taxon}{A
-character vector. The list of the accepted plant 
-taxa names according to the LCVP.}
-\item{Family}{A character
-vector. The corresponding family name of the Input.Taxon, 
-staying empty if the Status is unresolved..} 
-\item{Order}{A character
-vector. The corresponding order name of the Input.Taxon, 
-staying empty if the Status is unresolved.} }
+  \describe{\item{global.Id}{The fixed species id of the input taxon in the
+  Leipzig Catalogue of Vascular Plants (LCVP).} 
+  \item{Input.Genus}{A
+  character vector. The input genus of the corresponding vascular plant
+  species name listed in LCVP.} 
+  \item{Input.Epitheton}{A character vector.
+  The input epitheton of the corresponding vascular plant species name listed
+  in LCVP.} 
+  \item{Rank}{A character vector. The taxonomic rank ("species",
+  subspecies: "subsp.", variety: "var.", subvariety: "subvar.", "forma", or
+  subforma: "subf.") of the corresponding vascular plant species name listed
+  in LCVP.} 
+  \item{Input.Subspecies.Epitheton}{A character vector. If the
+  indicated rank is below species, the subspecies epitheton input of the
+  corresponding vascular plant species name listed in LCVP. If the rank is
+  "species", the input is "nil".} 
+  \item{Input.Authors}{A character vector.
+  The taxonomic authority input of the corresponding vascular plant species
+  name listed in LCVP.} 
+  \item{Status}{A character vector. description if a
+  taxon is classified as ‘valid’, ‘synonym’, ‘unresolved’, ‘external’ or
+  ‘blanks’. The ‘unresolved’ rank means that the status of the plant name
+  could be either valid or synonym, but the information available does not
+  allow a definitive decision. ‘External’ in an extra rank which lists names
+  outside the scope of this publication but useful to keep on this updated
+  list. ‘Blanks’ means that the respective name exists in bibliography but it
+  is neither clear where it came from valid, synonym or unresolved. (see the
+  main text Freiberg et al. for more details)}
+  \item{globalId.of.Output.Taxon}{The fixed species id of the output taxon
+  in LCVP.} 
+  \item{Output.Taxon}{A character vector. The list of the accepted
+  plant taxa names according to the LCVP.} 
+  \item{Family}{A character vector.
+  The corresponding family name of the Input.Taxon, staying empty if the
+  Status is unresolved.} 
+  \item{Order}{A character vector. The corresponding
+  order name of the Input.Taxon, staying empty if the Status is unresolved.}
+  \item{Literature}{A character vector. The bibliography used.}
+  \item{Comments}{A character vector. Further taxonomic comments.}}
 }
 \usage{
 tab_lcvp

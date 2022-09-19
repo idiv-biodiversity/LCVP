@@ -1,8 +1,0 @@
-colName,Description
-Input Taxon,list of all vascular plant species names listed in the Leipzig Catalogue of Vascular Plants (LCVP)
-Status,"description if a taxon is classified as ‘valid’, ‘synonym’, ‘unresolved’,  ‘external’ or ‘blanks’. The ‘unresolved’ rank means that the status of the plant name could be either valid or synonym, but the information available does not allow a definitive decision. ‘External’ in an extra rank which lists names outside the scope of this publication but useful to keep on this updated list."
-PL comparison,"direct comparison with ‘The Plant List’ (TPL) reporting further information such as: ‘identical', 'synonym', 'other synonym', 'different authors', 'missing', 'misspelling', 'unresolved'"
-PL Alternative,possible alternative name from the TPL
-Output Taxon,list of the accepted (valid) plant species name according to the LCVP
-Family,"corresponding family name of the Input.Taxon, staying empty if the Status is unresolved or external"
-Order,"corresponding order name of the Input.Taxon, staying empty if the Status is unresolved or external"

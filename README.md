@@ -1,5 +1,5 @@
 # LCVP v1.0.4
-This is a datapackage containing the species list of the Leipzig Plant Catalogue. To use the data for name resolution use the [`lcvplants`](https://github.com/idiv-biodiversity/lcplants) package.
+This is a datapackage containing the species list of the Leipzig Plant Catalogue. To use the data for name resolution use the [`lcvplants`](https://github.com/idiv-biodiversity/lcvplants) package.
 
 # Installation
 You can easily install `LCVP` from within R using devtools (you may need to instsall devtools first).

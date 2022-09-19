@@ -1,8 +1,8 @@
 Package: LCVP
-Title: The Leipzig Catalogue of Vascular Plants (LCVP) - datapackage
+Title: THE LEIPZIG CATALOGUE OF VASCULAR PLANTS (LCVP) - DATAPACKAGE
 Version: 2.0
 Authors@R: c(
-    person(given = "Alessandro", family = "Gentile", role = c("aut", "cre"), 
+    person(given = "Bruno", family = "Vilela", role = c("aut", "cre"), 
     email = "bvilela.bv@gmail.com"),
     person(given = "Alessandro", family = "Gentile", role = c("aut")),
     person(given = "Martin", family = "Freiberg", role = "aut"),
@@ -17,4 +17,5 @@ Encoding: UTF-8
 LazyData: true
 Depends: R (>= 3.5.0)
 Imports: utils
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.1
+LazyDataCompression:xz

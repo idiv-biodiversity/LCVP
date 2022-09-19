@@ -1,73 +1,132 @@
-#' Update the data files of LCVP
-
-#' Updates the tab-lcsv and tab_position data files from a new text file version of the Leipzig CAtalogue of Vascular Plants.
+#' #' Update the data files of LCVP
+#' 
+#' #' Updates the tab-lcsv and tab_position data files from a new text file
+#' #' version of the Leipzig CAtalogue of Vascular Plants.
+#' #'
+#' #'
+#' #' @param path path to the .zip folder containing the csv file.
+#' #' @param new_format if TRUE, the input is in the "new" format (>= v. 2.0)
+#' #'
+#' 
+#' require(usethis)
+#' 
+#' # format
+#' update_LCVP_data <-
+#'   function(path = "raw_data_LCVP/LCVP 2.0 export 27.7.2022.zip",
+#'            new_format = TRUE,
+#'            subset_tests = NULL) {
+#'     source("R/auxiliary.R")
+#'     source("R/splist_classify.R")
+#'     # ---------------------- tab_lcvp --------------------
+#'     # Read the file
+#'     file_name <- utils::unzip(path, list = TRUE)[1, 1]
+#'     tab_lcvp <- read.csv(unz(path, file_name))
+#'     if (!is.null(subset_tests)) {
+#'       tab_lcvp <- tab_lcvp[subset_tests, ]
+#'     }
+#'     for (i in 1:ncol(tab_lcvp)) {
+#'       if (is.character(tab_lcvp[, i])) {
+#'         Encoding(tab_lcvp[, i]) <- "UTF-8"
+#'       }
+#'     }
+#' 
+#'     # test valid
+#'     non_valid <- apply(tab_lcvp, 2, validEnc)
+#'     if (any(!non_valid)) {
+#'       stop("Non valid characthers found in the updated table.")
+#'     }
 #' 
 #' 
-#' @param input_data the path to the new version of the Leipzig Catalogue of Vasculart plants.
-#' @param output_folder the floder where the output files should be saved. By default the data 
-#' folder of the LCVP package.
-#' @param output_names The names of the output files. Position one is the tab_lcsvp files
-#' position two the tab_position file.
-#' @param encoding the encoding to read the input data.
 #' 
-#' @author Alessandro Gentile, Alexander Zizka
-#' @examples
+#'     # If new, transform to old
+#'     if (new_format) {
+#'       tab_lcvp2 <- .transform_table(tab_lcvp)
+#'     }
 #' 
-#' \dontrun{
+#' 
+#'     # ---------------------- lcvp_sps_class --------------------
+#'     # First we need to standardize the names, for this we will use this
+#'     # auxiliary function in the lcvplants package.
+#'     lcvp_sps <- .names_standardize(tab_lcvp2[, 1])
+#'     # Then we separate the names using another function in lcvplants package.
+#'     # Classify the species
+#'     lcvp_sps_class <- .splist_classify(lcvp_sps)
+#'     # Now, add an ID column, indicating the row in the original data.
+#'     # Include the ID
+#'     lcvp_sps_class <- cbind(lcvp_sps_class,
+#'                             ID = 1:nrow(lcvp_sps_class))
+#'     # Finally, save to be used in the package.
+#' 
+#' 
+#'     # ---------------------- tab_position --------------------
+#'     Position <- which(!duplicated(lcvp_sps_class[, 2]))
+#'     Genus <- lcvp_sps_class[Position, 2]
+#'     Triphthong <- substr(Genus, 1, 3)
+#'     tab_position <-
+#'       data.frame(Position, Triphthong, Genus)
+#' 
+#'     # ---------------------- lcvp_family --------------------
+#'     Family <- unique(tab_lcvp$Family)
+#'     Family <- Family[Family != '']
+#'     position_family <- list()
+#'     for (i in 1:length(Family)) {
+#'       position_family[[i]] <- which(tab_lcvp$Family == Family[i])
+#'     }
+#'     names(position_family) <- toupper(Family)
+#'     lcvp_family <- position_family
+#' 
+#'     # ---------------------- lcvp_order --------------------
+#' 
+#'     Order <- unique(tab_lcvp$Order)
+#'     Order <- Order[Order != '']
+#'     position_Order <- list()
+#'     for (i in 1:length(Order)) {
+#'       position_Order[[i]] <- which(tab_lcvp$Order == Order[i])
+#'     }
+#'     names(position_Order) <- toupper(Order)
+#'     lcvp_order <- position_Order
+#' 
+#'     # ---------------------- lcvp_authors --------------------
+#'     authors <- strsplit(lcvp_sps_class[, 4], " ")
+#' 
+#'     all_authors <- authors
+#'     all_authors <- lapply(all_authors, function(x){x[x != "&"]})
+#'     all_authors <- lapply(all_authors, function(x){gsub("\\(", "", x)})
+#'     all_authors <- lapply(all_authors, function(x){gsub("\\)", "", x)})
+#'     all_authors <- lapply(all_authors, function(x){gsub("\\]", "", x)})
+#'     all_authors <- lapply(all_authors, function(x){gsub("\\[", "", x)})
+#'     all_authors <- lapply(all_authors, function(x){gsub("[[:digit:]]", "", x)})
+#'     all_authors <- lapply(all_authors, function(x){x[x != "EX"]})
+#'     all_authors <- lapply(all_authors, function(x){x[x != "IN"]})
+#'     all_authors <- lapply(all_authors, function(x){x[x != "X"]})
+#'     all_authors <- lapply(all_authors, function(x){x[x != "_"]})
+#'     all_authors <- lapply(all_authors, function(x){x[x != "."]})
+#'     all_authors <- lapply(all_authors, function(x){x[x != "&."]})
+#'     all_authors <- lapply(all_authors, function(x){x[x != "-"]})
+#'     all_authors <- lapply(all_authors, function(x){x[x != ""]})
+#' 
+#'     all_authors_uniques <- sort(unique(unlist(all_authors)))
+#'     n <- length(all_authors_uniques)
+#'     lcvp_authors <- list()
+#'     for (i in 1:n) {
+#'       print(n - i)
+#'       lcvp_authors[[i]] <- which(sapply(all_authors,
+#'                                         function(x){any(x %in% all_authors_uniques[i])}))
+#'     }
+#' 
+#'     names(lcvp_authors) <- all_authors_uniques
+#' 
+#'     # Update the tab_lcvp table
+    # usethis::use_data(tab_lcvp,
+    #                   tab_position,
+    #                   lcvp_authors,
+    #                   lcvp_family,
+    #                   lcvp_order,
+    #                   lcvp_sps_class,
+    #                   overwrite = TRUE,
+    #                   ascii = TRUE,
+    #                   compress = "xz")
+#'   }
+#' 
+#' 
 #' update_LCVP_data()
-#' }
-#' 
-#' @importFrom utils read.csv write.table
-#' @export
-
-#encoding = "UTF-8"
-
-update_LCVP_data <- function(input_data = "raw_data_LCVP/LCVP_103.txt", 
-                             output_folder = "data", 
-                             output_names = c("tab_lcvp.rda", "tab_position.rda"), 
-                             encoding = "ANSI")  {
-
-  # Load data
-  LCVPspecies_table <- read.csv(input_data, 
-                               header = TRUE, 
-                               sep = "\t", 
-                               fill = TRUE, 
-                               colClasses = "character", 
-                               as.is = TRUE, 
-                               encoding = encoding)
-  
-  # generate position table
-  col <- dim(LCVPspecies_table)[2]
-  row <- dim(LCVPspecies_table)[1]
-  
-  Position_table_tmp <- data.frame(Position = NULL, Triphthong = NULL, Genus = NULL, stringsAsFactors=FALSE)
-  tab_position <- data.frame(Position = NULL, Triphthong = NULL, Genus = NULL, stringsAsFactors=FALSE)
-  
-  triplet <- "Zero"
-  
-  for (i in 1:row)  {
-    LCVP_genus <- unlist(strsplit(LCVPspecies_table[i,1], " "))[1]
-    if (nchar(LCVP_genus) < 3){
-      LCVP_ini = substring(LCVP_genus, 1, 2)
-    } else {LCVP_ini = substring(LCVP_genus, 1, 3)}
-    if (LCVP_ini != triplet) {
-      print(i)
-      print(LCVP_ini)
-      print(LCVP_genus)
-      triplet = LCVP_ini
-      Position_table_tmp <- data.frame(Position = i, Triphthong = LCVP_ini, Genus = LCVP_genus, stringsAsFactors=FALSE)
-      #write.table(Position_table_tmp, pathstring, sep = ",", col.names = FALSE, row.names = FALSE, append = TRUE, quote = FALSE)
-      tab_position <- rbind(tab_position, Position_table_tmp)
-    }
-  }
-
-  # save position table
-  save(tab_position, file = file.path(output_folder, output_names[2]), compress = "xz")
-  
-  # save data table
-  tab_lcvp <- LCVPspecies_table
-  save(tab_lcvp, file = file.path(output_folder, output_names[1]), compress = "xz")
-
-}
-
-  

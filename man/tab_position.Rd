@@ -29,7 +29,6 @@ indexing system speeds up of the search on the largest list
 
 data(tab_position)
 str(tab_position)
-
 }
 \references{
 The Leipzig Catalogue of Vascular Plants (LCVP) - An improved taxonomic
