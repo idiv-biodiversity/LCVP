@@ -1,3 +1,12 @@
+lcvplants 3.0 (2021-09-01)
+### MAJOR IMPROVEMENTS
+  * Updated raw data 
+  * New columns and structure for the lcvp 
+
+lcvplants 2.0 (2021-09-01)
+### MAJOR IMPROVEMENTS
+  * Updated tables to improve search algorithm performance
+
 lcvplants 1.0.4 (2020-11-16)
 =========================
 ### MINOR IMPROVEMENTS

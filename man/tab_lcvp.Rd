@@ -6,7 +6,7 @@
 \title{List of Plant Species Name accordingly with the Leipzig Catalogue of Vascular Plants
 (LCVP)}
 \format{
-A data frame with observations on the following 7 variables.
+A data frame with the following columns:
   \describe{\item{global.Id}{The fixed species id of the input taxon in the
   Leipzig Catalogue of Vascular Plants (LCVP).} 
   \item{Input.Genus}{A

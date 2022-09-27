@@ -1,6 +1,6 @@
 Package: LCVP
 Title: THE LEIPZIG CATALOGUE OF VASCULAR PLANTS (LCVP) - DATAPACKAGE
-Version: 2.0
+Version: 3.0.0
 Authors@R: c(
     person(given = "Bruno", family = "Vilela", role = c("aut", "cre"), 
     email = "bvilela.bv@gmail.com"),
