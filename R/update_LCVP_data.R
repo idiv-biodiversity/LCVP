@@ -27,6 +27,7 @@
 #'     for (i in 1:ncol(tab_lcvp)) {
 #'       if (is.character(tab_lcvp[, i])) {
 #'         Encoding(tab_lcvp[, i]) <- "UTF-8"
+#'         tab_lcvp[, i] <- iconv(tab_lcvp[, i], "UTF-8", "latin1")
 #'       }
 #'     }
 #' 
@@ -117,16 +118,16 @@
 #'     names(lcvp_authors) <- all_authors_uniques
 #' 
 #'     # Update the tab_lcvp table
-    # usethis::use_data(tab_lcvp,
-    #                   tab_position,
-    #                   lcvp_authors,
-    #                   lcvp_family,
-    #                   lcvp_order,
-    #                   lcvp_sps_class,
-    #                   overwrite = TRUE,
-    #                   ascii = TRUE,
-    #                   compress = "xz")
-#'   }
+#'     # usethis::use_data(tab_lcvp,    
+#'     #                   tab_position,    
+#'     #                   lcvp_authors,    
+#'     #                   lcvp_family,    
+#'     #                   lcvp_order,    
+#'     #                   lcvp_sps_class,    
+#'     #                   overwrite = TRUE,    
+#'     #                   ascii = TRUE,    
+#'     #                   compress = "xz")  
+#' }
 #' 
 #' 
 #' update_LCVP_data()
