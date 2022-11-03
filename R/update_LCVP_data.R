@@ -118,15 +118,15 @@
 #'     names(lcvp_authors) <- all_authors_uniques
 #' 
 #'     # Update the tab_lcvp table
-#'     # usethis::use_data(tab_lcvp,    
-#'     #                   tab_position,    
-#'     #                   lcvp_authors,    
-#'     #                   lcvp_family,    
-#'     #                   lcvp_order,    
-#'     #                   lcvp_sps_class,    
-#'     #                   overwrite = TRUE,    
-#'     #                   ascii = TRUE,    
-#'     #                   compress = "xz")  
+#'     usethis::use_data(tab_lcvp,
+#'                       tab_position,
+#'                       lcvp_authors,
+#'                       lcvp_family,
+#'                       lcvp_order,
+#'                       lcvp_sps_class,
+#'                       overwrite = TRUE,
+#'                       ascii = TRUE,
+#'                       compress = "xz")
 #' }
 #' 
 #' 
